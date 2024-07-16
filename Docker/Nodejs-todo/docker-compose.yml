@@ -14,7 +14,7 @@ services:
       restart: always
       build: ../../NodeJS/ToDoNodeJS-MySQL
       environment:
-        - DB_HOST=mysql-db
+        - DB_HOST=mysqldb
         - DB_USER=test
         - DB_PASSWORD=test
         - DB_NAME=test
